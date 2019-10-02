@@ -1,43 +1,58 @@
-*{
+* {
     color: rgba(200, 230, 170, .9);
 }
 
-p{
+p {
     color: rgba(200, 230, 170, .9);
 }
 
-.para{
-    margin:17px;
+.para {
+    margin: 17px;
 }
 
-.back{
+.back {
     background-color: black
 }
 
-.one{
+.one {
     background-color: rgba(70, 70, 70, .3);
     border-radius: 20px;
-    margin: 10px; padding: 7px;
+    margin: 10px;
+    padding: 7px;
 }
 
-.one h3{
+.one h3 {
     text-align: center;
 }
 
-.two{
+h3{   
+    font-family: Palace Script MT;
+    font-size: 50px
+}
+
+.two {
     background-color: rgba(70, 70, 70, .3);
     border-radius: 20px;
-    padding: 10px; 
+    padding: 10px;
     height: 477px
 }
 
-.well{
+.well {
     background-color: transparent;
     border: none;
 }
 
-.author{
-    background: linear-gradient(rgba(0, 0, 0,0.3),rgba(0,0,0,.3)), url(../images/author.jpeg);
+.jumbotron{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 85px;
+    font-family: Palace Script MT;
+    padding: 10px;
+}
+
+.author {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url(../images/author.jpeg);
     height: 230px;
     margin-top: 40px;
     border-radius: 10px;
@@ -47,15 +62,15 @@ p{
     margin-bottom: 0%;
 }
 
-.author:hover{
-    filter: sepia(150%); 
+.author:hover {
+    filter: sepia(150%);
 }
 
-.author:hover h3{
+.author:hover h3 {
     visibility: visible;
 }
 
-.author h3{
+.author h3 {
     text-align: center;
     color: rgba(40, 30, 30, .9);
     padding-top: 105px;
@@ -64,15 +79,15 @@ p{
 }
 
 
-.line{
+.line {
     width: 2px;
     height: 300px;
-    margin-top:35px; 
-    padding:0%; 
+    margin-top: 35px;
+    padding: 0%;
     background-color: rgba(70, 70, 70, .3);
 }
 
-.intro{
+.intro {
     background: url(../images/durga.jpeg) no-repeat;
     background-size: 1150px;
     transition: 5s linear;
@@ -81,76 +96,77 @@ p{
 
 
 
-.test{
-    width: auto; height: 500px;
+.test {
+    width: auto;
+    height: 500px;
     background-color: beige;
 }
 
-.places p{
+.places p {
     visibility: hidden;
     transition: .2s linear;
     height: 270px;
-    padding:30px;
+    padding: 30px;
     margin: 0%;
-    background-color: rgba(30,30,30,.7);
+    background-color: rgba(30, 30, 30, .7);
 }
 
-.places:hover p{
+.places:hover p {
     visibility: visible;
     font-size: 15px;
 }
 
-.places h4{
+.places h4 {
     color: rgba(200, 230, 170, 1);
     padding: 5px;
 }
 
-.places a{
+.places a {
     background-color: rgba(200, 230, 170, .4);
-    border:none;
+    border: none;
     color: rgba(200, 230, 170, 1);
 }
 
-.places a:hover{
+.places a:hover {
     background-color: rgba(220, 250, 150, .6);
-    border:none;
+    border: none;
 }
 
-.palace{
-    background: linear-gradient(rgba(50,50,50,.3),rgba(50,50,50,.1)),url(../images/Mypalace.jpg) ;
+.palace {
+    background: linear-gradient(rgba(50, 50, 50, .3), rgba(50, 50, 50, .1)), url(../images/Mypalace.jpg);
     background-position: center;
     background-size: cover;
-    height:300px;
+    height: 300px;
 }
 
-.naturalMuseum{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/trmonht.jpg) ;
+.naturalMuseum {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1)), url(../images/trmonht.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.chamundi{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.2)),url(../images/CHAMUNDIHILLS.jpeg) ;
-    background-position: center;
-    background-position-x: 0px;
-    background-size: cover;
-}
-
-.zoo{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(../images/zoo.jpeg) ;
+.chamundi {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../images/CHAMUNDIHILLS.jpeg);
     background-position: center;
     background-position-x: 0px;
     background-size: cover;
 }
 
-.ranga{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/ranga.jpeg) ;
+.zoo {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)), url(../images/zoo.jpeg);
+    background-position: center;
+    background-position-x: 0px;
+    background-size: cover;
+}
+
+.ranga {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1)), url(../images/ranga.jpeg);
     background-position: center;
     background-size: cover;
 }
 
-.brhills{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/brhills.jpg) ;
+.brhills {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1)), url(../images/brhills.jpg);
     background-position: center;
     background-size: cover;
 }
