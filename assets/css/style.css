@@ -148,3 +148,9 @@ p{
     background-position: center;
     background-size: cover;
 }
+
+.brhills{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/brhills.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
