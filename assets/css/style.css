@@ -1,0 +1,150 @@
+*{
+    color: rgba(200, 230, 170, .9);
+}
+
+p{
+    color: rgba(200, 230, 170, .9);
+}
+
+.para{
+    margin:17px;
+}
+
+.back{
+    background-color: black
+}
+
+.one{
+    background-color: rgba(70, 70, 70, .3);
+    border-radius: 20px;
+    margin: 10px; padding: 7px;
+}
+
+.one h3{
+    text-align: center;
+}
+
+.two{
+    background-color: rgba(70, 70, 70, .3);
+    border-radius: 20px;
+    padding: 10px; 
+    height: 477px
+}
+
+.well{
+    background-color: transparent;
+    border: none;
+}
+
+.author{
+    background: linear-gradient(rgba(0, 0, 0,0.3),rgba(0,0,0,.3)), url(../images/author.jpeg);
+    height: 230px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s linear;
+    margin-bottom: 0%;
+}
+
+.author:hover{
+    filter: sepia(150%); 
+}
+
+.author:hover h3{
+    visibility: visible;
+}
+
+.author h3{
+    text-align: center;
+    color: rgba(40, 30, 30, .9);
+    padding-top: 105px;
+    visibility: hidden;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.line{
+    width: 2px;
+    height: 300px;
+    margin-top:35px; 
+    padding:0%; 
+    background-color: rgba(70, 70, 70, .3);
+}
+
+.intro{
+    background: url(../images/durga.jpeg) no-repeat;
+    background-size: 1150px;
+    transition: 5s linear;
+    background-position: center;
+}
+
+
+
+.test{
+    width: auto; height: 500px;
+    background-color: beige;
+}
+
+.places p{
+    visibility: hidden;
+    transition: .2s linear;
+    height: 270px;
+    padding:30px;
+    margin: 0%;
+    background-color: rgba(30,30,30,.7);
+}
+
+.places:hover p{
+    visibility: visible;
+    font-size: 15px;
+}
+
+.places h4{
+    color: rgba(200, 230, 170, 1);
+    padding: 5px;
+}
+
+.places a{
+    background-color: rgba(200, 230, 170, .4);
+    border:none;
+    color: rgba(200, 230, 170, 1);
+}
+
+.places a:hover{
+    background-color: rgba(220, 250, 150, .6);
+    border:none;
+}
+
+.palace{
+    background: linear-gradient(rgba(50,50,50,.3),rgba(50,50,50,.1)),url(../images/Mypalace.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+}
+
+.naturalMuseum{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/trmonht.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.chamundi{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.2)),url(../images/CHAMUNDIHILLS.jpeg) ;
+    background-position: center;
+    background-position-x: 0px;
+    background-size: cover;
+}
+
+.zoo{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url(../images/zoo.jpeg) ;
+    background-position: center;
+    background-position-x: 0px;
+    background-size: cover;
+}
+
+.ranga{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(../images/ranga.jpeg) ;
+    background-position: center;
+    background-size: cover;
+}
